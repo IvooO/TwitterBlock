@@ -5,14 +5,15 @@ import netflix from "../images/netflix.jpeg";
 import academy from "../images/academy.png";
 import youtube from "../images/youtube.png";
 import js from "../images/js.png";
+import { Input } from "web3uikit";
 
 
 const Rightbar = () => {
   const trends = [
     {
       img: spaceshooter,
-      text: "Learn how to build a Web3 FPS game using unity...",
-      link: "https://moralis.io/moralis-projects-learn-to-build-a-web3-space-fps-game/",
+      text: "Trons Justin Sun Talks USDD in Wake of LUNA & UST...",
+      link: "https://www.coindesk.com/tv/first-mover/first-mover-may-20-2022/",
     },
     {
       img: netflix,
@@ -38,6 +39,30 @@ const Rightbar = () => {
 
   return (
     <>
+  <div className="rightbarContent">
+   < Input 
+   label="search Twitter"
+   name="Search Twitter"
+   prefix="search"
+   labelBgColor="#141d26"
+   ></Input>
+
+  <div className="trends">
+    News For You
+    {trends.map((e) => { 
+        return(
+          <>
+          <div className="trend" onClick={() => window.open(e.link)}> 
+          <img src={e.img} className="trendImg"></img>
+          <div className="trendText">{e.text}</div>
+          </div>
+           </>
+        )
+    })}
+   </div>
+
+   
+   </div>
     </>
   );
 };
