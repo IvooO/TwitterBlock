@@ -1,3 +1,5 @@
+
+   
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
@@ -11,7 +13,7 @@ import { NotificationProvider } from 'web3uikit';
 
 ReactDOM.render(
   <React.StrictMode>
-    <MoralisProvider appId="xxxx" serverUrl="xxx">
+   <MoralisProvider appId="sgkBsLKCNPCsPUpkqs6NbTRrL0jQYmtZNAcnL9LG"  serverUrl="https://35ajzgw5pufx.usemoralis.com:2053/server">
       <NotificationProvider>
       <BrowserRouter>
         <App />
@@ -26,3 +28,6 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+
+
