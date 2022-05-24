@@ -8,3 +8,5 @@ Web3 Twitter clone with a smart contract that saves tweets onto the blockchain. 
 ![Screenshot 2022-05-18 at 22 38 21](https://user-images.githubusercontent.com/7381165/169151660-98504bdc-c155-4786-97d6-fc0b348ea658.png)
 
 ![Screenshot 2022-05-18 at 22 21 54](https://user-images.githubusercontent.com/7381165/169149086-0bd8df11-8df0-4e69-b8e2-76cd0ce0b808.png)
+
+<img width="1251" alt="Screenshot 2022-05-22 at 23 53 44" src="https://user-images.githubusercontent.com/7381165/170123011-5dc58f72-264d-406d-b097-fbfa74dfd7b1.png">
