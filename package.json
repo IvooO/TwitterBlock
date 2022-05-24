@@ -25,11 +25,10 @@
     "web3uikit": "^0.1.75"
   },
   "scripts": {
-
     "predeploy": "npm run build",
-    "start": "node fetch.js && react-scripts start",
-    "build": "node fetch.js && react-scripts build",
     "deploy": "gh-pages -b gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
